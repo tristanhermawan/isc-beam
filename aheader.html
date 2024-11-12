@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ISC BEAM - 2024</title>
+    <link rel="icon" href="img/core-img/feunj.ico" type="image/ico" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <style>
+      .buttondisabilitas {
+       text-decoration: none;
+       position:fixed; z-index:100;
+       bottom:80%;
+       left:2%;
+       color: #fff;
+       background-color: transparent;
+       text-align: center;
+       letter-spacing: .5px;
+       transition: .2s ease-out;
+       cursor: pointer;
+       width:70px;
+      }
+
+      .buttonkurawa {
+       text-decoration: none;
+       position:fixed; z-index:100;
+       bottom:73%;
+       left:2%;
+       color: #fff;
+       background-color: transparent;
+       text-align: center;
+       letter-spacing: .5px;
+       transition: .2s ease-out;
+       cursor: pointer;
+       width:50px;
+       animation: pulse 3s infinite;
+       display: none;
+      }
+
+      @keyframes pulse {
+           0% {
+               transform: scale(1);
+              }
+           50% {
+               transform: scale(1.2);
+               }
+           100% {
+                  transform: scale(1);
+                }
+      }
+          .buttonkurawa a{
+           color: #fff;
+      }
+          .buttonkurawa:hover {
+           -ms-transform: scale(1.1);
+           -webkit-transform: scale(1.1);
+           transform: scale(1.1); 
+      }
+    </style>
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="caviar-load"></div>
+        <div class="preload-icons">
+            <img class="preload-1" src="img/core-img/preload-1.png" alt="">
+            <img class="preload-2" src="img/core-img/preload-2.png" alt="">
+            <img class="preload-3" src="img/core-img/preload-3.png" alt="">
+        </div>
+    </div>
+    <div class="caviar-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="caviarSearch" id="search" placeholder="Search Your Favourite Dish ...">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="caviar-hero-area" id="home">
+        <div class="welcome-social-info">
+            <a href="https://www.facebook.com/OfficialUNJ" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/unj_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/UNJ_Official" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/@universitasnegerijakarta9683" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+        <div class="caviar-hero-slides owl-carousel">
+            <div class="single-hero-slides bg-img" style="background-image: url(img/bg-img/nwx1.png);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>ISC BEAM</h2>
+                                <p>International Students’ Conference on Business, Education, Economics, Accounting, and Management (ISC BEAM)</p>
+                                <a href="https://bit.ly/3rdisc-beam" class="btn caviar-btn" target="_blank"><span></span> Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/ns2.png);"></div>
+            </div>
+            <div class="single-hero-slides bg-img" style="background-image: url(img/bg-img/nwx2.png);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>ISC BEAM</h2>
+                                <p>International Students’ Conference on Business, Education, Economics, Accounting, and Management (ISC BEAM)</p>
+                                <a href="https://bit.ly/3rdisc-beam" class="btn caviar-btn" target="_blank"><span></span> Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/ns1.png);"></div>
+            </div>
+        </div>
+    </section>
